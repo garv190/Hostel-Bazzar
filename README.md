@@ -1,36 +1,36 @@
-# Bhav Tol 🏠🛒
+# Bhav Tol 
 
 A modern marketplace application designed specifically for hostel communities, where students can buy and sell everyday essentials like Maggi noodles, chips, toothpaste, and other small items. Built with React frontend and Java Spring Boot backend with real-time chat functionality.
 
 
 
-## 🌟 Features
+## Features
 
-### 🛍️ Marketplace
+### Marketplace
 - **Buy & Sell**: List and purchase everyday hostel essentials
 - **Categories**: Food, Snacks, Beverages, Personal Care, Stationery
 - **Search & Filter**: Find items by name, category, or hostel location
 - **Product Details**: High-quality images, descriptions, and seller information
 - **Condition Tracking**: Excellent, Good, Fair, Poor condition indicators
 
-### 💬 Real-time Chat
+### Real-time Chat
 - **WebSocket Integration**: Instant messaging between buyers and sellers
 - **Product-specific Chats**: Discuss items directly with sellers
 - **Chat History**: Persistent conversation storage
 - **Online Status**: See who's currently available
 
-### 🔐 Authentication & Security
+### Authentication & Security
 - **JWT Authentication**: Secure login and registration
 - **Password Encryption**: BCrypt password hashing
 - **User Profiles**: Hostel and room information
 - **Authorization**: Protected routes and API endpoints
 
-### 🏠 Hostel-Focused
+### Hostel-Focused
 - **Location-based**: Filter products by hostel and room
 - **Small Items**: Focus on everyday essentials students actually need
 - **Student-friendly**: Affordable pricing and quick transactions
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 18** with TypeScript
@@ -46,7 +46,7 @@ A modern marketplace application designed specifically for hostel communities, w
 - **H2 Database** (development) / MySQL (production)
 - **JWT** for token-based authentication
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - **Node.js** (v16 or higher)
@@ -90,7 +90,7 @@ A modern marketplace application designed specifically for hostel communities, w
 
 
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/signin` - User login
@@ -117,7 +117,7 @@ A modern marketplace application designed specifically for hostel communities, w
 - **Topic**: `/topic/public`
 - **Send**: `/app/chat.sendMessage`
 
-## 🎨 Sample Data
+## Sample Data
 
 The application comes with pre-loaded sample data including:
 
@@ -153,7 +153,7 @@ hostelbazaar.app.jwtSecret=your-secret-key
 hostelbazaar.app.jwtExpirationMs=86400000
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Backend Deployment
 1. **Build the application**:
@@ -174,17 +174,17 @@ hostelbazaar.app.jwtExpirationMs=86400000
 
 
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🐛 Known Issues
+## Known Issues
 
 - WebSocket connection may need manual refresh in development
 - Image upload functionality is placeholder (uses default images)
 - Email notifications not implemented
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Image upload functionality
 - [ ] Push notifications
