@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { ShoppingBag, Plus, User, Menu, MessageCircle } from 'lucide-react';
 import { User as UserType } from '../types';
 
@@ -17,7 +17,7 @@ export default function Navbar({ onMenuToggle, onAuthClick, onAddProductClick, c
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <ShoppingBag className="w-8 h-8 text-blue-600" />
-            <span className="text-xl font-bold text-gray-900">Hostel Bazaar</span>
+            <span className="text-xl font-bold text-gray-900">Bhav Tol</span>
           </div>
 
           {/* Desktop Navigation */}

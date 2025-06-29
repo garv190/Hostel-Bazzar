@@ -1,4 +1,4 @@
-# Hostel Bazaar 🏠🛒
+# Bhav Tol 🏠🛒
 
 A modern marketplace application designed specifically for hostel communities, where students can buy and sell everyday essentials like Maggi noodles, chips, toothpaste, and other small items. Built with React frontend and Java Spring Boot backend with real-time chat functionality.
 
